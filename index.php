@@ -2,7 +2,7 @@
 
 	echo "hello world";
 
-	echo "You are here" . $_SERVER["REMOTE_ADDR"]; 
+	echo "You are here" . $_SERVER["SERVER_ADDR"]; 
 
 $servername = "10.68.255.225";
 $username = "imd";
